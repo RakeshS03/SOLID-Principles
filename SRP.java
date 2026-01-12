@@ -39,8 +39,6 @@ public class SRP {
         SupplyOrder supplyOrder = new SupplyOrder();
         CustomerService customerService = new CustomerService();
         BakeryCleaner cleaner = new BakeryCleaner();
-
-        // Each class focuses on its specific responsibility
         baker.bakeBread();
         inventoryManager.manageInventory();
         supplyOrder.orderSupplies();

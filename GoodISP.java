@@ -1,5 +1,3 @@
-// GoodISP_Office.java
-
 interface Printable {
     void print();
 }
