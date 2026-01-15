@@ -69,8 +69,7 @@ class User {
 class UserRepository {
 
     public void save(User user) {
-        System.out.println("UserRepository: Saving user to database -> "
-                + user.getEmail());
+        System.out.println("UserRepository: Saving user"+ user.getEmail());
     }
 }
 
@@ -80,8 +79,7 @@ class UserRepository {
 class EmailService {
 
     public void sendWelcomeMail(User user) {
-        System.out.println("EmailService: Sending welcome email to -> "
-                + user.getEmail());
+        System.out.println("EmailService: Sending welcome"+ user.getEmail());
     }
 }
 
